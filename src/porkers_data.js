@@ -16,6 +16,7 @@ import truffleshuffle from './hog-imgs/truffleshuffle.jpg'
 
 const hogs = [
   {
+    id: 1,
     name: 'Mudblood',
     specialty: 'Mediocre magic',
     greased: false,
@@ -24,6 +25,7 @@ const hogs = [
     image: mudblood
   },
   {
+    id: 2,
     name: 'Porkchop',
     specialty: 'Making friends',
     greased: true,
@@ -32,6 +34,7 @@ const hogs = [
     image: porkchop
   },
   {
+    id: 3,
     name: 'Cherub',
     specialty: 'truffle finder',
     greased: false,
@@ -40,6 +43,7 @@ const hogs = [
     image: cherub
   },
   {
+    id: 4,
     name: 'Piggy smalls',
     specialty: 'Massivity',
     greased: true,
@@ -48,6 +52,7 @@ const hogs = [
     image: piggy_smalls
   },
   {
+    id: 5,
     name: 'Trouble',
     specialty: 'Racing',
     greased: true,
@@ -56,6 +61,7 @@ const hogs = [
     image: trouble
   },
   {
+    id: 6,
     name: 'Sobriety',
     specialty: 'Expert Witness',
     greased: false,
@@ -64,6 +70,7 @@ const hogs = [
     image: sobriety
   },
   {
+    id: 7,
     name: 'Rainbowdash',
     specialty: 'Union Busting',
     greased: false,
@@ -72,6 +79,7 @@ const hogs = [
     image: rainbowdash
   },
   {
+    id: 8,
     name: 'TruffleShuffle',
     specialty: 'Finding truffles',
     greased: true,
@@ -80,6 +88,7 @@ const hogs = [
     image: truffleshuffle
   },
   {
+    id: 9,
     name: 'Bay of Pigs',
     specialty: 'Hamphlet Distribution',
     greased: false,
@@ -88,6 +97,7 @@ const hogs = [
     image: bay_of_pigs
   },
   {
+    id: 10,
     name: 'The Prosciutto Concern',
     specialty: 'truffle finder',
     greased: false,
@@ -96,6 +106,7 @@ const hogs = [
     image: the_prosciutto_concern
   },
   {
+    id: 11,
     name: 'Galaxy Note',
     specialty: 'Airport Security',
     greased: true,
@@ -104,6 +115,7 @@ const hogs = [
     image: galaxy_note
   },
   {
+    id: 12,
     name: 'Leggo My Eggo',
     specialty: 'Babysitting',
     greased: true,
@@ -112,6 +124,7 @@ const hogs = [
     image: leggo_my_eggo
   },
   {
+    id: 13,
     name: 'Augustus Gloop',
     specialty: 'Vacuum tubes',
     greased: true,

@@ -1,4 +1,5 @@
 import React from "react"
+import "../App.css"
 
 //Can't really think of a good application for this data in this particular lab, but...
 //I'll keep it in here just in case. 
@@ -13,7 +14,7 @@ const botTypeClasses = {
 
 const HogCard = props => {
     return (
-        <div className="ui column">
+        <div className="ui column pig-card">
             <div
                 className="ui card"
                 key={props.hog.id}
@@ -25,7 +26,9 @@ const HogCard = props => {
                 <div className="content">
                     <div className="header">
                         {props.hog.name}
-                        <i>Highest Medal Acheived: {props.hog.highest_medal_achieved}"</i>
+                    </div>
+                    <div className="meta text-wrap">
+                        <small>Highest Medal Acheived: {props.hog.highest_medal_achieved}</small>
                     </div>
                     <div className="meta text-wrap">
                         <small>Specialty: {props.hog.specialty}</small>
@@ -57,4 +60,4 @@ const HogCard = props => {
     )
 }
 
-export default BotCard
+export default HogCard
