@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import "../App.css"
-import Nav from "./Nav"
-import hogs from "../porkers_data"
+import Nav from "./components/Nav"
+import HogsPage from './containers/HogsPage'
 
 class App extends Component {
   render() {

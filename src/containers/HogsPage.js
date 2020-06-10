@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import HogCollection from './HogCollection'
+import HogArmy from '../components/YourHogArmy'
+import hogs from "./porkers_data"
 
 
 class HogsPage extends Component {
