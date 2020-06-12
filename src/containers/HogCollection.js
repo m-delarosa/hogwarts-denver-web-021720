@@ -1,18 +1,19 @@
-import React, { Component } from "react"
+import React from "react"
+import HogCard from '../components/HogCard'
 
-class HogCollection extends Component {
-    //your code here
+function HogCollection(props) {
+    const displayHogCards = props.hogCollection.map(hog => {
+        return <HogCard hog={hog} action={props.action} removeHog={props.removeHog} />
+    })
 
-    render() {
-        return (
-            <div className="ui four column grid">
-                <div className="row">
-                    {/*...and here..*/}
-            Collection of all Hogs
-          </div>
+    return (
+        <div className="ui four column grid">
+            <div className="row">
+                {displayHogCards}
             </div>
-        )
-    }
+        </div>
+    )
 }
+
 
 export default HogCollection
